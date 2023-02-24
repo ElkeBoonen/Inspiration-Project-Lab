@@ -1,0 +1,15 @@
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\OO Hospital - IMS.exe
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\OO Hospital - IMS.deps.json
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\OO Hospital - IMS.runtimeconfig.json
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\OO Hospital - IMS.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\OO Hospital - IMS.pdb
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.csproj.AssemblyReference.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.AssemblyInfoInputs.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.AssemblyInfo.cs
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.csproj.CoreCompileInputs.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\refint\OO Hospital - IMS.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.pdb
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.genruntimeconfig.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\ref\OO Hospital - IMS.dll

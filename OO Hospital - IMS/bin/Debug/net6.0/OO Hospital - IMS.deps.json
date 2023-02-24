@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OO Hospital - IMS/1.0.0": {
+        "runtime": {
+          "OO Hospital - IMS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OO Hospital - IMS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
