@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OO_Hospital___IMS.Doctor">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Hospital___IMS.Nurse">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nurse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Hospital___IMS.Patient">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Hospital___IMS.Person" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
