@@ -24,8 +24,19 @@ namespace OO___Music
         public void Play()
         {
             Console.WriteLine($"Now playing: {Title} by {Artist.Name}");
-            Thread.Sleep(Length);
-            Console.WriteLine($"Finished playing: {Title} by {Artist.Name}");
+            for (int i = 0; i < Length/1000; i++)
+            {
+                Console.Write(".");
+                Console.Beep();
+                Thread.Sleep(1000);
+            }
+
+            Console.WriteLine($"\nFinished playing: {Title} by {Artist.Name}");
+        }
+
+        public override string ToString()
+        {
+            return $"{Title} - {Artist.Name} - {Genre} - {Length}";
         }
     }
 }
