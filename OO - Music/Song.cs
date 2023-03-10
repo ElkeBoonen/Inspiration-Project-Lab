@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OO___Music
 {
-    public class Song
+    public class Song : IComparable
     {
         public string Title { get; set; }
         public Artist Artist { get; set; }
@@ -37,6 +37,23 @@ namespace OO___Music
         public override string ToString()
         {
             return $"{Title} - {Artist.Name} - {Genre} - {Length}";
+        }
+
+        public int CompareTo(Song song)
+        {
+            return this.Title.CompareTo(song.Title);
+
+            /*    if (this.Title 'komt voor' song.Title)
+                    return -1;
+                  else if (this.Title 'is gelijk aan' song.Title)
+                    return 0;
+                  else return 1*/
+        }
+
+        public int CompareTo(object? obj)
+        {
+            //obj kan null zijn, maar we gaan ervan uit dat dat niet het geval is ;)
+            return this.Title.CompareTo(((Song)obj).Title);
         }
     }
 }

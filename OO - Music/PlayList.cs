@@ -50,12 +50,30 @@ namespace OO___Music
             }
         }
 
+        public void Shuffle()
+        {
+            Random rd = new Random();
+            for (int i = Songs.Count-1; i >= 0; i--)
+            {
+                int nr = rd.Next(0, i + 1);
+
+                Song temp = Songs[nr];
+                Songs[nr] = Songs[i];
+                Songs[i] = temp;
+            }
+        }
+
+        public void Sort()
+        {
+            Songs.Sort();
+        }
+
         public override string ToString()
         {
-            string s = $"{Name} - Length: {Length}";
+            string s = $"{Name} - Length: {Length}\n";
             foreach (Song song in Songs)
             {
-                s += " - " + song.ToString() + "\n";
+                s += " * " + song.ToString() + "\n";
             }
             return s;
         }

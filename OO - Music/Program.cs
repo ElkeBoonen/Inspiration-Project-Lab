@@ -41,10 +41,17 @@
             songs.Add(shakeItOff);
             songs.Add(welcome);
             songs.Add(badGuy);
-            foreach (var item in songs)
-            {
-                item.Play();
-            }
+
+            PlayList IMS = new PlayList("IMS", songs);
+            Console.WriteLine(IMS);
+
+            IMS.Sort();
+            Console.WriteLine(IMS);
+
+            IMS.Shuffle();
+            Console.WriteLine(IMS);
+
+            //IMS.Play();
         }
     }
 }
