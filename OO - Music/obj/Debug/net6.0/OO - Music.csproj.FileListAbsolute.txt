@@ -1,0 +1,15 @@
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\bin\Debug\net6.0\OO - Music.exe
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\bin\Debug\net6.0\OO - Music.deps.json
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\bin\Debug\net6.0\OO - Music.runtimeconfig.json
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\bin\Debug\net6.0\OO - Music.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\bin\Debug\net6.0\OO - Music.pdb
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.csproj.AssemblyReference.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.AssemblyInfoInputs.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.AssemblyInfo.cs
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.csproj.CoreCompileInputs.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\refint\OO - Music.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.pdb
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\OO - Music.genruntimeconfig.cache
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Music\obj\Debug\net6.0\ref\OO - Music.dll
