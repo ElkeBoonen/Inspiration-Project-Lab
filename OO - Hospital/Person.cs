@@ -9,13 +9,21 @@ namespace OO___Hospital
     public class Person
     {
         public string Name { get; set; }
-        protected DateOnly Birth { get; set; }
+        public DateOnly Birth { get; protected set; }
         public int Age { get { return CalculateAge(); } }
+        public int ID { get; set; }
 
         public Person(string name, DateOnly birth)
         {
             Name = name;
             Birth = birth;
+        }
+
+        public Person(int id, string name, DateOnly birth)
+        {
+            Name = name;
+            Birth = birth;
+            ID = id;
         }
 
         public Person()

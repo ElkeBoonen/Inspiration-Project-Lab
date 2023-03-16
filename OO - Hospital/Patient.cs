@@ -11,14 +11,24 @@ namespace OO___Hospital
         public string Problem { get; set; }
         public string Treatment { get; set; }
 
+        private Data _data = new Data();
+
         public Patient(string name, DateOnly birth, string problem) : base(name, birth)
         {
             Problem = problem;
             Treatment = "None";
+
+            ID = _data.InsertPatient(this);
+        }
+
+        public Patient(int id, string name, DateOnly birth, string problem, string treatment) : base(id, name, birth)
+        {
+            Problem = problem;
+            Treatment = treatment;
         }
         public override string ToString()
         {
-            return $"PATIENT: {Name} - {Birth} - {Problem} -> {Treatment}";
+            return $"PATIENT: {ID} - {Name} - {Birth} - {Problem} -> {Treatment}";
         }
 
     }

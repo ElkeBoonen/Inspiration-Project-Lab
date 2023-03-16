@@ -13,3 +13,5 @@ C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospit
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospital\obj\Debug\net6.0\OO - Hospital.pdb
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospital\obj\Debug\net6.0\OO - Hospital.genruntimeconfig.cache
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospital\obj\Debug\net6.0\ref\OO - Hospital.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospital\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO - Hospital\obj\Debug\net6.0\OO - Hospital.csproj.CopyComplete

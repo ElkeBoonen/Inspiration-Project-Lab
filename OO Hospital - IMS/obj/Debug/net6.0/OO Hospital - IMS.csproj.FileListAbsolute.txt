@@ -13,3 +13,5 @@ C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.pdb
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.genruntimeconfig.cache
 C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\ref\OO Hospital - IMS.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\elkeb\OneDrive - Thomas More\GitHub\Inspiration-Project-Lab\OO Hospital - IMS\obj\Debug\net6.0\OO Hospital - IMS.csproj.CopyComplete

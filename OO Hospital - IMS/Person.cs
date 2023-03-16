@@ -9,7 +9,7 @@ namespace OO_Hospital___IMS
 {
     class Person
     {
-        protected DateOnly Birth { get; set; }
+        public DateOnly Birth { get; protected set; }
         public string Name { get; set; }
         public int Age { get { return CalculateAge(); }  }
         
