@@ -9,38 +9,29 @@ namespace OO_Hospital___IMS
     class Hospital
     {
         public string Name { get; set; }
-        private List<Person> People { get; set; }
+        public int ID { get; set; }
+
+        private Data _data = new Data();
 
         public Hospital(string name)
         {
             this.Name = name;
-            this.People = new List<Person>();
+            ID = _data.InsertHospital(this);
         }
 
+        public void AddPerson(Person person)
+        {
+            _data.AddPersonToHospital(person.ID, this.ID);
+        }
+
+        /*
         public List<Patient> GetPatients()
         {
-            List<Patient> patients = new List<Patient>();
-            foreach (Person p in People)
-            {
-                if (p is Patient)
-                {
-                    patients.Add((Patient)p);
-                }
-            }
-            return patients;
+           
         }
 
         public List<Person> GetStaff()
         {
-            List<Person> staff = new List<Person>();
-            foreach (Person p in People)
-            {
-                if (p is Doctor || p is Nurse) //als we hier is not Patient doen, komen ook de personen mee in de staff
-                {
-                    staff.Add(p);
-                }
-            }
-            return staff;
         }
 
         public void AddPerson(Person p)
@@ -57,5 +48,6 @@ namespace OO_Hospital___IMS
             }
             return s;
         }
+        */
     }
 }

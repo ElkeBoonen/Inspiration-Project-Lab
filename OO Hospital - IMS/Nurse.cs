@@ -10,9 +10,12 @@ namespace OO_Hospital___IMS
     {
         public HospitalDepartment Department { get; set; }
 
+        private Data _data = new Data();
+
         public Nurse(DateOnly birth, string name, HospitalDepartment department) : base(birth, name)
         {
             this.Department = department;
+            ID = _data.InsertNurse(this);
         }
 
         public override string ToString()
