@@ -11,6 +11,8 @@ namespace OO_Hospital___IMS
         public string Problem { get; set; }
         public string Treatment { get; set; }
 
+        private Data _data = new Data();
+
         public Patient(DateOnly birth, string name, string problem) : base(birth,name)
         {
             this.Problem = problem;
@@ -20,6 +22,8 @@ namespace OO_Hospital___IMS
             // dit kan ook maar waarom zouden we dat doen? 
             // we hergebruiken de code die we reeds schreven
             // basis van OO!!
+
+            ID = _data.InsertPatient(this);
         }
 
         public override string ToString()

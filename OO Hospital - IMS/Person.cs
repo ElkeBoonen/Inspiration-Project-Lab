@@ -12,7 +12,9 @@ namespace OO_Hospital___IMS
         public DateOnly Birth { get; protected set; }
         public string Name { get; set; }
         public int Age { get { return CalculateAge(); }  }
-        
+
+        public int ID { get; set; }
+
         public Person()
         {
             Birth = new DateOnly(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
