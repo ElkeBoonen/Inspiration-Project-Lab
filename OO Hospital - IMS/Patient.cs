@@ -20,9 +20,6 @@ namespace OO_Hospital___IMS
             // dit kan ook maar waarom zouden we dat doen? 
             // we hergebruiken de code die we reeds schreven
             // basis van OO!!
-
-            Data data = new Data();
-            data.InsertPatient(this);
         }
 
         public override string ToString()
