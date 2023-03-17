@@ -9,7 +9,7 @@
             Doctor be = new Doctor(new DateOnly(1980, 4, 16), "Benedikte", "Geriatrie");
             Nurse bart = new Nurse(new DateOnly(2000, 4, 16), "Bart", HospitalDepartment.Cardiology);
 
-            Hospital stmaarten = new Hospital("Sint Maarten 2");
+            Hospital stmaarten = new Hospital("Sint Maarten");
             stmaarten.AddPerson(elke);
             stmaarten.AddPerson(collin);
             stmaarten.AddPerson(be);
