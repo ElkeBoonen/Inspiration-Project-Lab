@@ -17,6 +17,11 @@ namespace OO_Hospital___IMS
             this.Specialty = specialty;
             ID = _data.InsertDoctor(this);
         }
+        public Doctor(int id, DateOnly birth, string name, string specialty) : base(birth, name)
+        {
+            this.Specialty = specialty;
+            this.ID = id;
+        }
         public override string ToString()
         {
             return $"Doctor " + base.ToString() + " is a " + Specialty;

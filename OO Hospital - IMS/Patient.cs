@@ -26,6 +26,13 @@ namespace OO_Hospital___IMS
             ID = _data.InsertPatient(this);
         }
 
+        public Patient(int id, DateOnly birth, string name, string problem, string treatment) : base(birth, name)
+        {
+            this.Problem = problem;
+            this.Treatment = treatment;
+            this.ID = id;
+        }
+
         public override string ToString()
         {
             return $"Patient {Name} born on {Birth} has {Problem} and is treated with {Treatment}";

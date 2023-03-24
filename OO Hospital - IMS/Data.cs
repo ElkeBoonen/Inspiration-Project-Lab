@@ -20,6 +20,10 @@ namespace OO_Hospital___IMS
         private const int _nurseType = 2;
         private const int _doctorType = 3;
 
+        ////////////////////////
+        /// INSERT METHODEN /// 
+        ///////////////////////
+
         private int Insert(string query)
         {
             MySqlConnection connection = new MySqlConnection(connectionString);
@@ -78,6 +82,84 @@ namespace OO_Hospital___IMS
             string query = $"INSERT INTO peopleinhospital(Person, Hospital)" +
                 $" VALUES({personID}, {hospitalID});";
             Insert(query);
+        }
+
+        public List<Patient> SelectPatients(int hospitalID)
+        {
+            string query = $"select * from person " +
+                $" inner join peopleinhospital on person.id = peopleinhospital.Person" +
+                $" WHERE Hospital = {hospitalID} and Type = {_patientType};";
+
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            MySqlCommand command = new MySqlCommand(query, connection);
+            
+            List<Patient> patients = new List<Patient>();
+
+            try {
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    int id = (int)reader["ID"];
+                    string name = (string)reader["Name"];
+                    DateOnly birth = DateOnly.FromDateTime((DateTime)reader["Birth"]);
+                    string problem = (string)reader["Problem"];
+                    string treatment = (string)reader["Treatment"];
+                    patients.Add(new Patient(id, birth, name, problem, treatment));
+                }
+                reader.Close();
+                connection.Close();
+            }
+            catch (Exception e) {
+                Console.WriteLine(e.Message);
+            }
+            
+            return patients;
+        }
+
+        public List<Person> SelectStaff(int hospitalID)
+        {
+            string query = $"select * from person " +
+                $" inner join peopleinhospital on person.id = peopleinhospital.Person" +
+                $" WHERE Hospital = {hospitalID} and Type != {_patientType};";
+            
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            MySqlCommand command = new MySqlCommand(query, connection);
+
+            List<Person> staff = new List<Person>();
+
+            try
+            {
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    int id = (int)reader["ID"];
+                    string name = (string)reader["Name"];
+                    DateOnly birth = DateOnly.FromDateTime((DateTime)reader["Birth"]);
+                    int type = (int)reader["Type"];
+                    if (type == _doctorType)
+                    {
+                        string specialty = (string)reader["Specialty"];
+                        staff.Add(new Doctor(id, birth, name, specialty));
+                    }
+                    else if (type == _nurseType)
+                    {
+                        string area = (string)reader["Area"];
+                        staff.Add(new Nurse(id, birth, name, (HospitalDepartment)area));
+                    }
+
+                }
+                reader.Close();
+                connection.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            return staff;
+
         }
 
     }

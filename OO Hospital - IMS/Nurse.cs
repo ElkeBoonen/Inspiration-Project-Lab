@@ -18,6 +18,12 @@ namespace OO_Hospital___IMS
             ID = _data.InsertNurse(this);
         }
 
+        public Nurse(int id, DateOnly birth, string name, HospitalDepartment department) : base(birth, name)
+        {
+            this.Department = department;
+            this.ID = id;
+        }
+
         public override string ToString()
         {
             return $"Nurse " + base.ToString() + " works in " + Department;

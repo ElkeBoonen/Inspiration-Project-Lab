@@ -14,6 +14,8 @@
             stmaarten.AddPerson(collin);
             stmaarten.AddPerson(be);
             stmaarten.AddPerson(bart);
+
+            Console.WriteLine(stmaarten);
         }
     }
 }
