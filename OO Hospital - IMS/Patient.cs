@@ -33,6 +33,12 @@ namespace OO_Hospital___IMS
             this.ID = id;
         }
 
+        public bool SetTreatment(string treatment)
+        {
+            this.Treatment = treatment;
+            return _data.UpdatePatient(this);
+        }
+        
         public override string ToString()
         {
             return $"Patient {Name} born on {Birth} has {Problem} and is treated with {Treatment}";

@@ -146,7 +146,9 @@ namespace OO_Hospital___IMS
                     else if (type == _nurseType)
                     {
                         string area = (string)reader["Area"];
-                        staff.Add(new Nurse(id, birth, name, (HospitalDepartment)area));
+                        HospitalDepartment department = Enum.Parse<HospitalDepartment>(area);
+
+                        staff.Add(new Nurse(id, birth, name, department));
                     }
 
                 }
@@ -160,6 +162,29 @@ namespace OO_Hospital___IMS
 
             return staff;
 
+        }
+
+        //kan gebruikt worden voor INSERT, UPDATE, DELETE
+        public int ExecuteQuery(string query)
+        {
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            MySqlCommand command = new MySqlCommand(query, connection);
+            connection.Open();
+            int rows = command.ExecuteNonQuery();
+            connection.Close();
+            return rows;
+        }
+
+        public bool UpdatePatient(Patient patient)
+        {
+            string query = $"UPDATE person" +
+                $" SET Name='{patient.Name}'," +
+                $" Problem='{patient.Problem}'," +
+                $" Treatment='{patient.Treatment}' " +
+                $"WHERE ID = {patient.ID};";
+            int rows = ExecuteQuery(query);
+            if (rows == 1) return true;
+            return false;
         }
 
     }

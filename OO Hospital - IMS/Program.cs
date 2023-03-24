@@ -16,6 +16,9 @@
             stmaarten.AddPerson(bart);
 
             Console.WriteLine(stmaarten);
+
+            collin.SetTreatment("Holiday!!!!!");
+            
         }
     }
 }
